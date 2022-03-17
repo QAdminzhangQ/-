@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="utf-8">
+	<title>9.9主页</title>
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<link rel="shortcut icon" href="https://cdn.u1.huluxia.com/g4/M01/E9/1A/rBAAdmGBOsWAEXgtAAQgPsR_o4k323.bmp"
+		title="image/x-icon">
+</head>
+
+<body class="bgSea">
+	<! 导航栏>
+		<ul class="nav">
+			<li class="nav"><a href="/index1.html">回到主页</a></li>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">文集</a>
+				<div class="dropdown-content">
+					<a href="/anthology.html">文章区</a>
+					<a href="/cartoon.html">漫画区</a>
+				</div>
+
+			</li>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">资源</a>
+				<div class="dropdown-content">
+					<a href="/file.html">资源区</a>
+					<a href="/program.html">9.9程序区</a>
+					<a href="/Windows.html">Windows</a>
+					<a href="/MAC.html">MAC OS</a>
+					<a href="/Linux.html">Linux</a>
+				</div>
+			</li>
+
+			</li>
+			<li class="dropdown">
+				<a href="javascript:void(0)" class="dropbtn">More</a>
+				<div class="dropdown-content">
+					<a href="https://www.kaitaku.xyz"">博客站</a>
+					<a href="/tuoguan.html"">9.9托管</a>
+					</div>
+					<li class=" dropdown">
+						<a href="javascript:void(0)" class="dropbtn">趣味游戏</a>
+						<div class="dropdown-content">
+							<a href="/wuziqi.html"">五子棋(人机对战)</a>
+							<a href="http://allin9-9cdnfileload.kaitaku.xyz/mla.html"">超级玛丽</a>
+							<a href="http://allin9-9cdnfileload.kaitaku.xyz/cutfruit.html"">切水果</a>
+							<a href="http://allin9-9cdnfileload.kaitaku.xyz/saiche.html"">赛车</a>
+		</div>
+		       </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="虎年大吉">
+        <title>虎年大吉</title>
+        <style>
+            body,html {
+                margin: 0;
+                padding: 0;
+            }
+
+            .word {
+                font-size: 20px;
+                font-weight: bold;
+                color: #f5db4a;
+                line-height: 50px;
+                text-align: center;
+                text-shadow: 1px 2px 0px #e8340e;
+            }
+
+            .main-box {
+                margin: 50px auto;
+                transform: rotate(-10deg);
+            }
+
+            .main-in {
+                width: 140px;
+                height: 120px;
+                margin: 0 auto;
+                position: relative;
+            }
+
+            .head {
+                width: 140px;
+                height: 120px;
+                background: #f28e2c;
+                border-top-left-radius: 100px 120px ;
+                border-top-right-radius: 100px 120px;
+                border-bottom-left-radius: 100px 80px;
+                border-bottom-right-radius: 100px;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .ear {
+                width: 50px;
+                height: 63px;
+                border-radius: 50%;
+                background: #f28e2c;
+                position: absolute;
+                left: -9%;
+                top: 0;
+                transform: rotate(306deg);
+            }
+
+            .ear::after {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 25px;
+                height: 22px;
+                background: #772e27;
+                bottom: 30px;
+                left: 50%;
+                transform: translateX(-50%) rotate(354deg);
+                border-top-left-radius: 50%;
+                border-top-right-radius: 50%;
+            }
+
+            .ear.right {
+                left: unset;
+                right: -9%;
+                top: -7px;
+                transform: rotate(-306deg);
+            }
+
+            .king {
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                top: -1px;
+                left: 50%;
+                transform: translateX(-50%) rotate(-2deg);
+            }
+
+            .king::after {
+                content: "";
+                display: block;
+                position: absolute;
+                left: 33%;
+                top: 0;
+                width: 8px;
+                height: 30px;
+                background: #772e27;
+                border-radius: 10% 50%;
+            }
+
+            .line {
+                width: 40px;
+                height: 10px;
+                margin-bottom: 2px;
+                border-radius: 40%;
+                background: #772e27;
+            }
+
+            .line:nth-child(2) {
+                transform: scale(0.8);
+            }
+
+            .line:nth-child(3) {
+                transform: scale(0.67);
+            }
+
+            .left-eye {
+                width: 40px;
+                height: 15px;
+                background: #772e27;
+                position: absolute;
+                left: 10%;
+                top: 41%;
+                border-top-left-radius: 50% 10px;
+                border-top-right-radius: 50% 10px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+
+            .left-eye::after {
+                content: '';
+                width: 40px;
+                height: 30px;
+                background: #f28e2c;
+                border-radius: 50%;
+                position: absolute;
+                top: 68%;
+                left: 3%;
+            }
+
+            .eye {
+                width: 35px;
+                height: 35px;
+                background: #faf9f7;
+                position: absolute;
+                top: 27%;
+                right: 17%;
+                border-radius: 50%;
+            }
+
+            .eye-in {
+                width: 25px;
+                height: 25px;
+                background: #772e27;
+                border-radius: 50%;
+                position: relative;
+                margin: 5px 0 0 2px;
+            }
+
+            .eye-in::before {
+                width: 14px;
+                height: 14px;
+                background: #fff;
+                content: '';
+                position: absolute;
+                border-radius: 50%;
+                top: 1px;
+                right: 2px;
+            }
+
+            .eye-in::after {
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background: #fff;
+                content: '';
+                position: absolute;
+                left: 10px;
+                bottom: 2px;
+            }
+
+            .mouth {
+                width: 72px;
+                height: 50px;
+                border-radius: 50%;
+                background: #fbf7b0;
+                position: absolute;
+                left: 50%;
+                bottom: 2%;
+                transform: translateX(-50%);
+            }
+
+            .nose {
+                width: 18px;
+                height: 18px;
+                position: absolute;
+                top: 16%;
+                left: 50%;
+                background: #772e27;
+                border-top-left-radius: 16%;
+                border-top-right-radius: 37%;
+                border-bottom-left-radius: 87%;
+                border-bottom-right-radius: 16%;
+                transform: translateX(-50%) rotate(136deg);
+            }
+
+            .nose::after {
+                width: 5px;
+                height: 5px;
+                background: #fff;
+                border-radius: 50%;
+                content: '';
+                position: absolute;
+                left: 9px;
+                top: 10px;
+            }
+
+            .mouth-in {
+                width: 0;
+                height: 0;
+                position: absolute;
+                left: 49%;
+                top: 39%;
+                transform: translateX(-50%);
+            }
+
+            .mouth-in:before {
+                content: '';
+                display: block;
+                width: 17px;
+                height: 14px;
+                position: absolute;
+                top: 0;
+                left: -20px;
+                border-width: 3px;
+                border-style: solid;
+                border-color: transparent #772e27 #772e27 transparent ;
+                border-bottom-left-radius: 50%;
+                border-bottom-right-radius: 50%;
+            }
+
+            .mouth-in:after {
+                content: '';
+                display: block;
+                width: 17px;
+                height: 14px;
+                position: absolute;
+                top: 0;
+                left: 1px;
+                border-width: 3px;
+                border-style: solid;
+                border-color: transparent transparent #772e27 #772e27;
+                border-bottom-left-radius: 50%;
+                border-bottom-right-radius: 50%;
+            }
+
+            .beard {
+                width: 65px;
+                height: 14px;
+                border-top-right-radius: 50% 13px;
+                border-bottom-right-radius: 5px;
+                background: #772e27;
+                position: absolute;
+                left: -31%;
+                bottom: 18%;
+                transform: rotate(329deg);
+            }
+             .beard.right {
+                left: unset;
+                right: -31%;
+                border-top-left-radius: 50% 13px;
+                border-bottom-left-radius: 5px;
+                transform: rotate(-329deg);
+                bottom: 22%;
+            }
+              .beard.two {
+                transform: rotate(316deg) scale(0.6);
+                bottom: 5%;
+                width: 30px;
+                left: 0%;
+            }
+            .beard.three {
+                width: 45px;
+                height: 19px;
+                transform: rotate(329deg) scale(0.5);
+                border-top-right-radius: 50%;
+                border-bottom-right-radius: 50%;
+                bottom: 12%;
+                left: -9%;
+            }
+            .beard.four {
+                bottom: 5%;
+                width: 30px;
+                right: 0%;
+                transform: rotate(65deg) scale(0.6);
+            }
+            .beard.five {
+                bottom: 15%;
+                width: 40px;
+                right: -10%;
+                transform: rotate(21deg) scale(0.6);
+            }
+
+        </style>
+    </head>
+    <body>
+        <p class="word">祝大家2022，虎年大吉</p>
+        <div class="main-box">
+            <div class="main-in">
+                <!--耳朵 -->
+                <div class="ear"></div>
+                <div class="ear right"></div>
+                <!-- 头 -->
+                <div class="head">
+                    <!--王-->
+                    <div class="king">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <!--眼睛-->
+                    <div class="left-eye"></div>
+                    <div class="eye">
+                        <div class="eye-in"></div>
+                    </div>
+                    <!--嘴-->
+                    <div class="mouth">
+                        <div class="nose"></div>
+                        <div class="mouth-in"></div>
+                    </div>
+                    <!--胡须-->
+                    <div class="beard"></div>
+                    <div class="beard two"></div>
+                    <div class="beard three"></div>
+                    <div class="beard right"></div>
+                    <div class="beard right four"></div>
+                    <div class="beard right five"></div>
+                </div>
+                <!--head end-->
+            </div>
+            <!--main-in end-->
+        </div>
+        <!--main-box end-->
+    </body>
+</html>
